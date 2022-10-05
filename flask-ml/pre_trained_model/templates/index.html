@@ -24,8 +24,13 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-8 col-md-7 py-4">
-                <h4 class="text-white">About</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In tellus integer feugiat scelerisque varius morbi enim. Faucibus turpis in eu mi bibendum.</p>
+                <h4 class="text-white">About us</h4>
+                <p class="text-muted">
+                  
+                  We are group one for the AI group work with team members Khentse Dorji, Dorji Jatsho, Sonam Yangchen and Ugyen Chezom coordinated by our
+                  module tutor Mr.Karma Wangchuk.
+                  This is our website for checking the simialrity between two sentences deployed using the pretraind model from tensorflow-hub.
+                </p>
               </div>
               <!--<div class="col-sm-4 offset-md-1 py-4">
                 <h4 class="text-white">Contact</h4>
@@ -51,22 +56,23 @@
         </div>
       </header>
 
+     <div class="title">
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-6 mx-auto">
+            <h1 class="fw-light">Similarity Checker</h1>
+            <p class="text">It will check the Similarity of sentences by calculating the cosine Similarity between the two given sentences.</p>
+          </div>
+        </div>
+      </section>
+     </div>
+
+
 
 
       <div class="container">
-
-          <section class="py-5 text-center container">
-            <div class="row py-lg-5">
-              <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light">Similarity Checker</h1>
-                <p class="lead text-muted">It will check the Similarity of sentences by calculating the cosine Similarity between the given two sentences.</p>
-              </div>
-            </div>
-          </section>
-        
-
           <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-10">
                   <div class="form_main">
                       <h4 class="heading"><strong>Enter Your </strong> Sentence Here<span></span></h4>
                       <div class="form">
@@ -85,9 +91,9 @@
           {% if result %}
   
           <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-10">
                   <div class="form_main">
-                      <h4 class="heading"><strong>Cosine </strong> Similarity Value<span></span></h4>
+                      <h4 class="heading1"><strong>Cosine </strong> Similarity Value<span></span></h4>
   
                       <div class="notice notice-info">
                           <strong>Sentence 1</strong> : {{result["sentence-1"]}}
@@ -100,7 +106,7 @@
 
                       <div class="notice-range">
                              
-                            <spam class="simi">Similarity(-1 to -0.6)</spam>    <spam class="dissimi">Dissimilarity(0.6 to 1)</spam>
+                            <spam class="simi">Similarity(-1 to -0.6)</spam>    <spam class="dissimi">Dissimilarity(-0.59 to 1)</spam>
                         </div>
 
 
@@ -113,6 +119,9 @@
               </div>
           </div> {% endif %}
       </div>
+
+      <br>
+      <br>
     <footer class="text-footer">
         <div class="footer">
             <p class="float">
@@ -123,8 +132,9 @@
                 <div class="contactus">
                     <h4 class="text-white">Contact</h4>
                     <ul class="list-unstyled">
-                      <li><a href="#" class="text-white">17565###</a></li>
-                      <li><a href="#" class="text-white">Hello@coder.com</a></li>
+                      <li><a href="#" class="text-white"><i class="fa fa-phone" aria-hidden="true"></i>
+                        17565###</a></li>
+                      <li><a href="#" class="text-white"><i class="fa fa-envelope" aria-hidden="true"></i>Hello@cst.com</a></li>
                     </ul>
                 </div>
         </div>

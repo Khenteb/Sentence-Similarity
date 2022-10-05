@@ -1,5 +1,6 @@
     body{
     width: 100%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(126, 192, 240));
     }
     .text-footer{
         background-color: #ccc;
@@ -7,6 +8,16 @@
     }
     .contactus{
         padding-left: 500px;
+    }
+    .row{
+        padding-left: 200px;
+    }
+    .title {
+        padding-right: 90px;
+    }
+    .text{
+        color: #090909;
+        font-weight: 400;
     }
     
 
@@ -18,23 +29,28 @@
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 15px;
-    margin-top: 20px;
-    text-transform: uppercase;
+    margin-top: -20px;
     }
     .form {
+
+      
     border-radius: 7px;
     padding: 6px;
+    padding-left: 0px;
     }
     .form .txt{
         max-width: 960px;
         margin: 0 auto;
+        
+        
     }
     .txt[type="text"] {
     border: 1px solid #ccc;
     margin: 10px 0;
-    padding: 20px 0px 170px 10px;
+    padding: 20px 0px 100px 10px;
     width: 100%;
-    height: 150px;
+    height: 70px;
+   
     }
     .txt_3[type="text"] {
     margin: 10px 0 0;
@@ -83,6 +99,11 @@
     .notice-success>strong {
     color: #80D651;
     }
+    
+    .heading1{
+        padding-top: 40px;
+
+    }
 
 
 
@@ -123,10 +144,12 @@
     .notice-danger>strong {
     color: #d73814;
     }
+
     .text-muted py-5{
         background-color: #4f5c04;
+    
     }
     .float{
-        padding-left: 30px;
+        padding-left: 80px;
     }
     
